@@ -405,6 +405,25 @@ margin:0; color:#000;}
 .grace-article-contents .img-item image{width:100%;}
 .grace-article-contents .text-item{margin:8px 12px; line-height:2.2em; font-size:16px; color:#2F2F2F;} 
 
+/* 提交文章页面 */
+.write_title{padding:10px; border-bottom:1px dashed #F1F2F3;}
+.write_title input{width:100%; font-size:20px; line-height:26px; text-align:center;}
+.inputArea{padding:10px; display:flex; flex-wrap:nowrap;}
+.inputArea .addImg{width:90px; height:90px; text-align:center; line-height:90px; flex-shrink:0; font-size:16px; margin-right:8px; background:#F4F5F6;}
+.inputArea .addText{width:100%; height:90px; display:flex; flex-wrap:nowrap;  background:#F4F5F6;}
+.inputArea .addText textarea{width:100%; height:80px; padding:5px; font-size:14px;}
+.inputArea .addText button{width:60px; height:90px; font-size:12px; text-align:center; line-height:90px; margin-left:8px; flex-shrink:0;}
+.artList{padding:10px;}
+.artList .item{width:100%; margin:10px 0; overflow:hidden;}
+.artList image{width:100% !important; height:auto;}
+.artList .item textarea{width:80%; margin:0 auto; height:40px; line-height:40px; text-align:center; padding:5px; font-size:14px; line-height:1.5em; color:#CCC; border-bottom:1px solid #D1D1D1;}
+.submitNow{line-height:50px; color:#00B26A; font-size:18px; margin:0px 10px; text-align:center; border-top:1px solid #F1F2F3; border-bottom:1px solid #F1F2F3;}
+.deleteText{text-align:center; line-height:20px; font-size:14px; color: #00B26A; margin-top:8px;}
+.art-cate{padding:10px; display:flex; flex-wrap:nowrap; justify-content:space-between;}
+
+.waittext{padding:50% 2%; width:96%;text-align: center;font-size: 68rpx;}
+
+
 /* 多功能菜单 - 纵向 */
 .grace-popover-menu{width:78px; height:auto; right:0px; bottom:88px; position:fixed; z-index:9999;}
 .grace-popover-menu .item{width:58px; height:58px; line-height:58px; text-align:center; font-size:30px; color:#FFFFFF; border-radius:50%; margin:15px 10px; overflow:hidden; box-shadow:1px -1px 2px #C1C1C1;}
